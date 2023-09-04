@@ -1,0 +1,190 @@
+body {
+  background-color: #f3f4f6;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.big-plan {
+  flex: 1;
+  max-width: 220px;
+}
+
+.high-plan01 {
+  background: linear-gradient(225deg, #007981, #009593, #00c7b4, #00fbd2);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px -4px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.high-plan02 {
+  width: 100%;
+  background: linear-gradient(225deg, #e6739a, #a066a1, #3657a8);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px -4px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.high-plan03 {
+  width: 100%;
+  background: linear-gradient(225deg, #ff6184, #ffab87, #aa6ffb);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px -4px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.name-plan {
+  text-transform: uppercase;
+  color: white;
+  font-family: "sono";
+  font-size: 14px;
+  padding-right: 0;
+  padding-left: 64px;
+  margin-left: 94px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.name-plan02 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "sono";
+  font-size: 14px;
+  padding-right: 0;
+  padding-left: 46px;
+  margin-left: 94px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.name-plan03 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "sono";
+  font-size: 14px;
+  padding-right: 0;
+  padding-left: 48px;
+  margin-left: 94px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+.price-plan {
+  color: white;
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0;
+  padding-left: 10px;
+  position: relative;
+}
+
+.dollar {
+  font-family: "sono";
+  position: absolute;
+  left: 32%;
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+.usd-month {
+  color: white;
+  font-family: "sono";
+  font-size: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.lorem {
+  color: white;
+  font-family: "sono";
+  font-size: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.down-plan {
+  background-color: white;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.down-plan ul {
+  margin-top: 0px;
+  padding-left: 0px;
+  padding-top: 20px;
+  list-style: none;
+  font-family: "sono";
+  font-size: 10px;
+  color: #bcb6b6;
+}
+
+.down-plan li {
+  padding-bottom: 18px;
+}
+
+.btn-plan01 {
+  margin-bottom: 12px;
+  border: none;
+  background: linear-gradient(225deg, #007981, #009593, #00c7b4, #00fbd2);
+  color: white;
+  font-family: "sono";
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 4px;
+}
+
+.btn-plan04 {
+  margin-bottom: 12px;
+  border: none;
+  background: linear-gradient(225deg, #e6739a, #a066a1, #3657a8);
+  color: white;
+  font-family: "sono";
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 4px;
+}
+
+.btn-plan05 {
+  margin-bottom: 12px;
+  border: none;
+  background: linear-gradient(225deg, #ff6184, #ffab87, #aa6ffb);
+  color: white;
+  font-family: "sono";
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
