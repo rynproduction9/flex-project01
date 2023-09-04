@@ -186,6 +186,7 @@ body {
     height: 100%;
     margin-top: 60px;
     margin-bottom: 60px;
+    gap: 50px;
   }
 
   .big-plan {
